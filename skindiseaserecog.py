@@ -51,7 +51,7 @@ if uploaded_file is not None:
 submit=st.button("Cure My Disease")
 
 input_prompt="""
-You are an expert in dermatology where you need to see the disease of skin from the image
+You are a doctor where you need to see the disease of person from the image
                and tell how to cure the disease, also provide the details of medicines to use along with diet to follow
                is below format
 
@@ -59,6 +59,7 @@ You are an expert in dermatology where you need to see the disease of skin from 
                2. Reason why disease occured
                3. what are the medicines need to use
                4. What is the diet to follow to avoid any rashes and irritations
+               5. suggest the nearby hospital for consultaion with doctor 
                ----
                ----
                ----
